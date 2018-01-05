@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color: #fefefe;
+	color: #28374f;
+	font-family: acumin-pro;
+	letter-spacing: 0rem;
+	line-height: 2.5rem;
+	font-size: 28px;
+}
+
+h1 {
+	font-family:'Sorts Mill Goudy' ;
+	font-size:28px;
+	font-weight: 600;
+}
+
+body > * {
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	overflow: hidden;
+
+}
+
+header div {
+	padding: 2em;
+  box-sizing: border-box;
+}
+
+body > * > *  {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+ top:-10px;
+ opacity:0; 
+ -webkit-animation:fadeIn ease-in 1;  
+ -moz-animation:fadeIn ease-in 1;
+ animation:fadeIn ease-in 1;
+ 
+ -webkit-animation-fill-mode:forwards;  
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+ 
+ -webkit-animation-duration:1s;
+ -moz-animation-duration:1s;
+ animation-duration:1s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 0.4s;
+-moz-animation-delay: 0.4s;
+animation-delay: 0.4s;
+}
+
+
+.wide {
+	grid-column: span 2;
+	width: 100%;
+	padding-bottom: 50%;
+}
+
+.tall {
+	grid-row: span 2;
+	width: 100%;
+	padding-bottom: 200%;
+}
+
+@media only screen and (max-device-width: 480px) {
+	body {		
+		grid-template-columns: 100%;
+	}
+
+	.wide {
+		grid-column: span 1;
+		width: 100%;
+		padding-bottom: 100%;
+	}
+
+	.tall {
+		grid-row: span 1;
+		width: 100%;
+		padding-bottom: 100%;
+	}
+}
