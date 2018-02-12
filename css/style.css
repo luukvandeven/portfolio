@@ -1,9 +1,9 @@
 body {
-	margin: 0;
 	padding: 0;
+	margin: 0 auto;
+	max-width: 3200px;
 
 	background-color: #fefefe;
-	color: #28374f;
 	font-family: acumin-pro;
 	letter-spacing: 0rem;
 	line-height: 2.5rem;
@@ -13,16 +13,27 @@ body {
 	column-gap: 0;
 }
 
+body, a, a:visited {
+	color: #28374f;
+}
+
 h1 {
-	font-family:'Sorts Mill Goudy' ;
-	font-size: 8px;
+	font-family: 'Sorts Mill Goudy';
 	font-weight: 600;
+}
+
+ul {
+	margin: 0;
+	list-style-type: none;
+}
+
+li:before {
+	content: "– ";
 }
 
 body > * {
 	position: relative;
 	width: 100%;
-	/*padding-bottom: 100%;*/
 	overflow: hidden;
 }
 
