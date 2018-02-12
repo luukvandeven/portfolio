@@ -1,44 +1,44 @@
 body {
-	padding: 0;
-	margin: 0 auto;
-	max-width: 3200px;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 3200px;
 
-	background-color: #fefefe;
-	font-family: acumin-pro;
-	letter-spacing: 0rem;
-	line-height: 2.5rem;
-	font-size: 28px;
+  background-color: #fefefe;
+  font-family: acumin-pro;
+  letter-spacing: 0rem;
+  /*line-height: 2.5rem;*/
+  font-size: 16px;
 
-	column-count: 2;
-	column-gap: 0;
+  column-count: 2;
+  column-gap: 0;
 }
 
 body, a, a:visited {
-	color: #28374f;
+  color: #28374f;
 }
 
 h1 {
-	font-family: 'Sorts Mill Goudy';
-	font-weight: 600;
+  font-family: 'Sorts Mill Goudy';
+  font-weight: 600;
 }
 
 ul {
-	margin: 0;
-	list-style-type: none;
+  margin: 0;
+  list-style-type: none;
 }
 
 li:before {
-	content: "– ";
+  content: "– ";
 }
 
 body > * {
-	position: relative;
-	width: 100%;
-	overflow: hidden;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 
 header div {
-	padding: 2em;
+  padding: 2em;
   box-sizing: border-box;
 }
 
@@ -46,34 +46,30 @@ body > * > img  {
   width: 100%;
 }
 
-/*@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+
+  to {
+    opacity:1;
+  }
+}
 
 .fade-in {
- top:-10px;
- opacity:0;
- -webkit-animation:fadeIn ease-in 1;
- -moz-animation:fadeIn ease-in 1;
- animation:fadeIn ease-in 1;
-
- -webkit-animation-fill-mode:forwards;
- -moz-animation-fill-mode:forwards;
- animation-fill-mode:forwards;
-
- -webkit-animation-duration:1s;
- -moz-animation-duration:1s;
- animation-duration:1s;
+  top:-10px;
+  opacity:0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
 }
 
 .fade-in.one {
--webkit-animation-delay: 0.4s;
--moz-animation-delay: 0.4s;
-animation-delay: 0.4s;
-}*/
+  animation-delay: 0.4s;
+}
 
 @media only screen and (max-device-width: 480px) {
-	body {
-		column-count: 1;
-	}
+  body {
+    column-count: 1;
+  }
 }
