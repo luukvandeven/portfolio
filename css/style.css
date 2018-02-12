@@ -1,11 +1,11 @@
 body {
   padding: 0;
   margin: 0 auto;
-  max-width: 3200px;
+  max-width: 2400px;
 
   background-color: #fefefe;
   font-family: acumin-pro;
-  letter-spacing: 0rem;
+  /*letter-spacing: 0rem;*/
   /*line-height: 2.5rem;*/
   font-size: 16px;
 
@@ -38,12 +38,13 @@ body > * {
 }
 
 header div {
-  padding: 2em;
+  padding: 4em;
   box-sizing: border-box;
 }
 
 body > * > img  {
   width: 100%;
+	display: block;
 }
 
 @keyframes fadeIn {
