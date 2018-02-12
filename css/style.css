@@ -11,16 +11,28 @@ body {
   font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  color: #222;
 	font-family: acumin-pro;
+
+	padding: 0;
+	margin: 0 auto;
+	max-width: 2400px;
+	background-color: #fefefe;
 }
 
-/* Typography
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#columns {
+	column-count: 2;
+	column-gap: 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+  #columns {
+    column-count: 1;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
-  /*font-weight: 300; */
 }
 
 h1 {
@@ -31,16 +43,6 @@ h1 {
 
 p {
   margin-top: 0;
-}
-
-body {
-  padding: 0;
-  margin: 0 auto;
-  max-width: 2400px;
-  background-color: #fefefe;
-
-  column-count: 2;
-  column-gap: 0;
 }
 
 body, a, a:visited {
@@ -61,7 +63,7 @@ li:before {
   content: "⟶ ";
 }
 
-body > * {
+#columns > * {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -72,7 +74,16 @@ header div {
   box-sizing: border-box;
 }
 
-body > * > img  {
+footer {
+	margin: 4em auto;
+	width: 100px;
+}
+
+footer img {
+	width: 100%;
+}
+
+#columns > * > img  {
   width: 100%;
 	display: block;
 }
@@ -97,10 +108,4 @@ body > * > img  {
 
 .fade-in.one {
   animation-delay: 0.4s;
-}
-
-@media only screen and (max-device-width: 480px) {
-  body {
-    column-count: 1;
-  }
 }
