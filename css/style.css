@@ -24,7 +24,7 @@ body {
 	column-gap: 0;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media (max-width: 800px) {
   #columns {
     column-count: 1;
   }
