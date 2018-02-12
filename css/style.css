@@ -56,8 +56,12 @@ body, a, a:visited {
 ul {
   margin: 0;
 	padding: 0;
-	font-color:#999;
   list-style-type: none;
+}
+
+li {
+	font-color:#999;
+
 }
 
 li:before {
