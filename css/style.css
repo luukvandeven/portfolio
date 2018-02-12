@@ -1,13 +1,43 @@
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  color: #222;
+	font-family: acumin-pro;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  /*font-weight: 300; */
+}
+
+h1 {
+	font-size: 2.4rem;
+	line-height: 1.2;
+  letter-spacing: .02em
+}
+
+p {
+  margin-top: 0;
+}
+
 body {
   padding: 0;
   margin: 0 auto;
   max-width: 2400px;
-
   background-color: #fefefe;
-  font-family: acumin-pro;
-  /*letter-spacing: 0rem;*/
-  /*line-height: 2.5rem;*/
-  font-size: 16px;
 
   column-count: 2;
   column-gap: 0;
@@ -19,17 +49,16 @@ body, a, a:visited {
 
 h1 {
   font-family: "kings-caslon-display";
-  /*font-family: 'Sorts Mill Goudy';
-  font-weight: 600;*/
 }
 
 ul {
   margin: 0;
+	padding: 0;
   list-style-type: none;
 }
 
 li:before {
-  content: "– ";
+  content: "⟶ ";
 }
 
 body > * {
@@ -39,7 +68,7 @@ body > * {
 }
 
 header div {
-  padding: 4em;
+  padding: 3em;
   box-sizing: border-box;
 }
 
@@ -50,11 +79,11 @@ body > * > img  {
 
 @keyframes fadeIn {
   from {
-    opacity:0;
+    opacity: 0;
   }
 
   to {
-    opacity:1;
+    opacity: 1;
   }
 }
 
