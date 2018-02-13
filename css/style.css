@@ -36,9 +36,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   line-height: 1.2;
   letter-spacing: .02em
+  display: inline;
+  font-family: "kings-caslon-display";
 }
 
 p {
@@ -49,9 +51,6 @@ body, a, a:visited {
   color: #28374f;
 }
 
-h1 {
-  font-family: "kings-caslon-display";
-}
 
 ul {
   margin: 0;
