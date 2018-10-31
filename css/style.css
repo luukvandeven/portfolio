@@ -10,21 +10,20 @@ html {
 body {
   font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
-  font-family: acumin-pro;
-
-  padding: 0;
-  margin: 0 auto;
-  max-width: 2400px;
-  background-color: #fefefe;
+  font-weight: lighter;
+	font-family: acumin-pro;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 2400px;
+	background-color: #fefefe;
 }
 
 #columns {
-  column-count: 2;
-  column-gap: 0;
+	column-count: 2;
+	column-gap: 0;
 }
 
-@media (max-device-width: 420px) {
+@media (max-width: 980px) {
   #columns {
     column-count: 1;
   }
@@ -36,11 +35,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.1rem;
-  line-height: 1.2;
-  letter-spacing: .02em
-  display: inline;
-  font-family: "kings-caslon-display";
+	font-size: 2.1rem;
+	line-height: 1.2;
+  	letter-spacing: .02em
+	display:inline;
+ 	font-family: "kings-caslon-display";
+
 }
 
 p {
@@ -58,8 +58,10 @@ ul {
   list-style-type: none;
 }
 
+
 li:before {
-  content: "⟶ ";
+  content: "☛ ";
+
 }
 
 #columns > * {
@@ -74,17 +76,25 @@ header div {
 }
 
 footer {
-  margin: 4em auto;
-  width: 100px;
+	margin: 4em auto;
+	width: 100px;
 }
 
 footer img {
-  width: 100%;
+	width: 100%;
 }
 
 #columns > * > img  {
   width: 100%;
-  display: block;
+	display: block;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   background-color: #99ffcc;
 }
 
 @keyframes fadeIn {
