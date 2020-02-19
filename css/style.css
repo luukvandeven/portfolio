@@ -11,7 +11,7 @@ body {
   font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: lighter;
-	font-family: acumin-pro;
+	font-family: acumin-pro, Helvetica;
 	padding: 0;
 	margin: 0 auto;
 	max-width: 2400px;
