@@ -64,7 +64,7 @@ li:before {
 }
 
 ul li:hover:before {
-   color: #292658;
+   color: #d94328;
 }
 
 #columns > * {
@@ -97,7 +97,7 @@ a {
 }
 
 a:hover {
-   text-color: #292658;
+   text-color: #d94328;
 }
 
 @keyframes fadeIn {
