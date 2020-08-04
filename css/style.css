@@ -3,13 +3,6 @@
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
-
-@font-face {
-  font-family: "Luk";
-  src: url("../fonts/LukGX.ttf") ;
-}
-
-
 html {
   font-size: 100%;
 }
@@ -36,7 +29,7 @@ body {
   }
 }
 
-/*h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
 }
@@ -48,21 +41,6 @@ h1 {
 	display:inline;
  	font-family: "kings-caslon-display";
 
-}*/
-
-h1 {
-
-  --weight: 450;
-  --width: 200;
-  font-family: "Luk";
-  font-variation-settings: "wght" var(--weight);
-  font-size: 8vw;
-  text-align: center;
-  color: #d94328;
-  margin-top: -40px;
-  margin-bottom: 0.3em;
-  padding: 0;
-
 }
 
 p {
@@ -70,7 +48,7 @@ p {
 }
 
 body, a, a:visited {
-  color: #d94328;
+  color: #292658;
 }
 
 
@@ -81,12 +59,9 @@ ul {
 }
 
 
-ul li:before {
+li:before {
   content: "☛ ";
-}
 
-ul li:hover:before {
-   color: #292658;
 }
 
 #columns > * {
@@ -98,10 +73,6 @@ ul li:hover:before {
 header div {
   padding: 3em;
   box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  /*text-align: center;*/
 }
 
 footer {
@@ -123,7 +94,7 @@ a {
 }
 
 a:hover {
-   color: #292658;
+   text-color: #d94328;
 }
 
 @keyframes fadeIn {
@@ -136,8 +107,6 @@ a:hover {
   }
 }
 
-
-
 .fade-in {
   top:-10px;
   opacity:0;
@@ -149,4 +118,3 @@ a:hover {
 .fade-in.one {
   animation-delay: 0.4s;
 }
-
