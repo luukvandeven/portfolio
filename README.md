@@ -1,3 +1,3 @@
-# temp
-GD
+# portfolio
+Graphic design and art direction 
 
