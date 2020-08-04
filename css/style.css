@@ -94,7 +94,7 @@ a {
 }
 
 a:hover {
-   text-color: #d94328;
+   color: #d94328;
 }
 
 @keyframes fadeIn {
