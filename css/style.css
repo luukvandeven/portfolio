@@ -25,6 +25,13 @@ body {
 	background-color: #fefefe;
 }
 
+@media (max-width:1000px) {
+  body {
+    font-size: 40px;
+  }
+
+}
+
 @media (min-width:400px) {
   body {
     font-size: 30px;
