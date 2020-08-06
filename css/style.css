@@ -10,7 +10,9 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 }
 
 
-
+html {
+  font-size: 100%;
+}
 
 body {
   font-size: 24px;
