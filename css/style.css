@@ -25,6 +25,13 @@ body {
 	background-color: #fefefe;
 }
 
+@media (min-width:400px) {
+  body {
+    font-size: 30px;
+  }
+
+}
+
 #columns {
 	column-count: 2;
 	column-gap: 0;
