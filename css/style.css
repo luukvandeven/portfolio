@@ -54,7 +54,7 @@ h1 {
 
   --weight: 450;
   --width: 200;
-  font-family: "Luk";
+  font-family: "Luk","acumin-pro";
   font-variation-settings: "wght" var(--weight);
   font-size: 8vw;
   text-align: center;
