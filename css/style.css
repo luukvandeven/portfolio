@@ -4,6 +4,7 @@
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 
+
 @font-face {
   font-family: "Luk";
   src: url("../fonts/LukGX.ttf") ;
@@ -15,10 +16,14 @@ html {
 }
 
 body {
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 1.6;
 	font-weight: lighter;
-	font-family: acumin-pro, Helvetica;
+	font-family: obviously-wide, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
 	padding: 0;
 	margin: 30px;
 	max-width: 2400px;
@@ -50,7 +55,7 @@ h1 {
 
   --weight: 450;
   --width: 200;
-  font-family: "Luk","acumin-pro";
+  font-family: "Luk","obviously-wide";
   font-variation-settings: "wght" var(--weight);
   font-size: 8vw;
   text-align: center;
