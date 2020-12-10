@@ -17,13 +17,11 @@ html {
 
 body {
 	font-size: 20px;
-	line-height: 1.6;
+	line-height: 1.7;
 	font-weight: lighter;
 	font-family: obviously-wide, sans-serif;
-
-font-weight: 300;
-
-font-style: normal;
+  font-weight: 300;
+  font-style: normal;
 	padding: 0;
 	margin: 30px;
 	max-width: 2400px;
@@ -32,8 +30,11 @@ font-style: normal;
 
 @media (max-width:1000px) {
   body {
-    font-size: 40px;
+    font-size: 14px;
   }
+
+  p {margin-left: -90px;
+    margin-right: -90px;}
 
 }
 
