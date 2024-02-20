@@ -30,7 +30,7 @@ body {
 
 @media (max-width:1000px) {
   body {
-    font-size: 14px;
+    font-size: 18px;
   }
 	
 
@@ -41,8 +41,11 @@ body {
 
 @media (max-width:600px) {
   body {
-    font-size: 18px; /* Of een andere waarde die je geschikt vindt */
+    font-size: 32px; 
   }
+	
+  p {margin-left: -90px;
+    margin-right: -90px;}
 }
 
 section {margin-bottom: 30px;}
