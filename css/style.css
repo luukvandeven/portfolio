@@ -32,10 +32,17 @@ body {
   body {
     font-size: 14px;
   }
+	
 
   p {margin-left: -90px;
     margin-right: -90px;}
 
+}
+
+@media (max-width:600px) {
+  body {
+    font-size: 18px; /* Of een andere waarde die je geschikt vindt */
+  }
 }
 
 section {margin-bottom: 30px;}
