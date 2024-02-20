@@ -46,6 +46,12 @@ body {
 	
   p {margin-left: -185px;
     margin-right: -185px;}
+
+	.logo-l {
+width: 285;
+height: 285;
+
+}
 }
 
 section {margin-bottom: 30px;}
