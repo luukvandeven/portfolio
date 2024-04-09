@@ -34,9 +34,8 @@ body {
 	
 
   p {
-	  margin-top:100px;
-	  margin-bottom:100px;
-	  margin-left: -120px;
+	 padding: 50;
+	margin-left: -120px;
     margin-right: -120px;}
 
 }
