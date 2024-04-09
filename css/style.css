@@ -55,7 +55,7 @@ section {margin-bottom: 30px;}
 
 #columns {
 	column-count: 3;
-	column-gap: 30px;
+	column-gap: 20px;
 }
 
 @media (max-width: 980px) {
