@@ -80,8 +80,10 @@ h1 {
 }
 
 p {
-	margin-top: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
  	width: 60%;
+	align:center;
 }
 
 body, a, a:visited {
