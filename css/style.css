@@ -110,11 +110,11 @@ ul li:hover:before {
 }
 
 header div {
-  padding: 3em;
+  
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 100%;
   text-align: center;
 }
 
