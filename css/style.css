@@ -29,23 +29,23 @@ body {
 
 @media (max-width:1000px) {
   body {
-    font-size: 38px;
+    font-size: 28px;
   }
 	
 
   p {
-	margin-left: -120px;
-    	margin-right: -120px;}
+	margin-left: -100px;
+    	margin-right: -100px;}
 
 }
 
 @media (max-width:600px) {
   body {
-    font-size: 42px; 
+    font-size: 22px; 
   }
 	
-  p {margin-left: -185px;
-    margin-right: -185px;}
+  p {margin-left: -90px;
+    margin-right: -90px;}
 
 
 }
