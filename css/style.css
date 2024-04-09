@@ -18,10 +18,10 @@ html {
 body {
 	font-size: 20px;
 	line-height: 1.7;
-	font-weight: light;
-	font-family: obviously, sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	
+	font-family: obviously-wide, sans-serif;
+  	font-weight: 400;
+	font-style: normal;
 	padding: 0;
 	margin: 30px;
 	max-width: 2400px;
@@ -34,7 +34,10 @@ body {
   }
 	
 
-  p {margin-left: -120px;
+  p {
+	  margin-top:100px;
+	  margin-bottom:100px;
+	  margin-left: -120px;
     margin-right: -120px;}
 
 }
