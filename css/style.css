@@ -93,13 +93,14 @@ body, a, a:visited {
 
 ul {
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   list-style-type: none;
 }
 
 
 ul li:before {
-  content: "☛ ";
+  content: "☛ →";
 }
 /*
 ul li:hover:before {
