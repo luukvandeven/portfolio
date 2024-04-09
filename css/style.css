@@ -16,13 +16,13 @@ html {
 }
 
 body {
-	font-size: 30px;
+	font-size: 28px;
 	line-height: 1.7;
 	font-family: obviously-wide, sans-serif;
   	font-weight: 300;
 	font-style: normal;
 	padding: 0;
-	margin: 30px;
+	margin: 300px;
 	max-width: 2400px;
 	background-color: #e9eae6;
 }
