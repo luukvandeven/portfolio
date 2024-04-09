@@ -34,7 +34,6 @@ body {
 	
 
   p {
-	width: 60%;
 	margin-left: -120px;
     	margin-right: -120px;}
 
@@ -81,7 +80,8 @@ h1 {
 }
 
 p {
-  margin-top: 0;
+	margin-top: 0;
+ 	width: 60%;
 }
 
 body, a, a:visited {
