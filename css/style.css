@@ -10,7 +10,8 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
   src: url("../fonts/LukGX.ttf") ;
 }
 
-
+img.logo {
+		margin: 30px;}
 html {
   font-size: 100%;
 }
