@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	font-size: 28px;
+	font-size: 32px;
 	line-height: 1.7;
 	font-family: obviously-wide, sans-serif;
   	font-weight: 300;
@@ -172,7 +172,7 @@ a:hover {
 
 @media (max-width:600px) {
   body {
-    font-size: 22px; 
+    font-size: 30px; 
   }
 	
   p {margin-left: 10px;
