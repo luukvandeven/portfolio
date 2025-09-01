@@ -175,7 +175,8 @@ a:hover {
  p {
 	margin-left: 10px;
     margin-right: 10px;}
-
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 @media (max-width:600px) {
@@ -185,7 +186,8 @@ a:hover {
 	
   p {margin-left: 10px;
     margin-right: 10px;}
-
+	padding-left: 5%;
+	padding-right: 5%;
 
 }
 
