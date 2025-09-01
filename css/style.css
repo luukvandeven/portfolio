@@ -147,7 +147,7 @@ a:hover {
 }
 
 
-.rotate {
+.logo-rotate {
   animation: rotation 8s infinite linear;
   align-content: center;
   z-index: 1;
