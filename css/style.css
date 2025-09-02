@@ -202,3 +202,29 @@ section {margin-bottom: 20px;}
     column-count: 1;
   }
 }
+
+/* ==== Mobile tune ==== */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+@media (max-width: 600px) {
+  /* Basisgrootte omlaag */
+  body { font-size: 18px; margin: 12px; }
+
+  /* Kop niet te huge en zonder negatieve marge */
+  h1 { font-size: 9vw; margin-top: 0; margin-bottom: 0.5em; text-align: center; }
+
+  /* Paragrafen: geen 200px marges of 20% padding op mobiel */
+  p {
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 70ch;         /* prettige regelbreedte */
+  }
+
+  /* Logo echt centreren */
+  .logo-l, .logo-rotate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
