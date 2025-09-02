@@ -161,18 +161,18 @@ a:hover {
 }
 
 @media (max-width:1000px) {
-  body { font-size: 22px; }              /* alleen dit getal aangepast */
+  body { font-size: 22px; }              
   ul { margin-bottom: 80px; }
   p {
     margin-left: 10px;
     margin-right: 10px;
-    padding-left: 5%;                     /* verplaatst naar binnen p{} */
+    padding-left: 5%;                 
     padding-right: 5%;
   }
 }
 
 @media (max-width:600px) {
-  body { font-size: 18px; }               /* alleen dit getal aangepast */
+  body { font-size: 18px; }       
   p {
     margin-left: 10px;
     margin-right: 10px;
