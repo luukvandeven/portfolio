@@ -211,5 +211,5 @@ section {margin-bottom: 20px;}
 }
 
 @media (max-width: 600px) {
-  body { margin: 8px; }                  /* nóg iets smaller op kleine telefoons */
+  body { margin: 12px; }                  /* nóg iets smaller op kleine telefoons */
 }
