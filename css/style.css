@@ -226,3 +226,10 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
     margin-left: auto;
     margin-right: auto;
   }
+
+	/* Header-logo weer centreren op mobiel */
+@media (max-width: 600px) {
+  .logo-l { 
+    display: inline !important;  /* laat centreren via text-align:center van je header */
+  }
+}
