@@ -204,7 +204,6 @@ section {margin-bottom: 20px;}
   }
 }
 @media (max-width: 1000px) {
-  body { margin: 0; }                 /* haal de dikke randen weg */
-  #columns > section { margin: 0 0 12px; }  /* alleen verticale ruimte */
+  body { margin: 10; }              
   #columns > section img { display:block; width:100%; height:auto; }
 }
