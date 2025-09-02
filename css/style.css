@@ -3,7 +3,7 @@
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
-
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 
 @font-face {
   font-family: 'Minus20';
@@ -161,31 +161,25 @@ a:hover {
 }
 
 @media (max-width:1000px) {
-  body {
-    font-size: 52px;
+  body { font-size: 22px; }              /* alleen dit getal aangepast */
+  ul { margin-bottom: 80px; }
+  p {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5%;                     /* verplaatst naar binnen p{} */
+    padding-right: 5%;
   }
-	ul {
-
-  margin-bottom: 80px;}
-
- p {
-	margin-left: 10px;
-    margin-right: 10px;}
-	padding-left: 5%;
-	padding-right: 5%;
 }
 
 @media (max-width:600px) {
-  body {
-    font-size: 36px;   
-	
-	p {margin-left: 10px;
-    margin-right: 10px;}
-	padding-left: 5%;
-	padding-right: 5%;
-
-}
+  body { font-size: 18px; }               /* alleen dit getal aangepast */
+  p {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
+}
 	
 
 
