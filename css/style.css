@@ -75,10 +75,7 @@ ul {
 ul li:before {
   content: "→ ";
 }
-/*
-ul li:hover:before {
-   color: #132d20;
-}*/
+
 
 #columns > * {
   position: relative;
