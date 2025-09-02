@@ -164,8 +164,8 @@ a:hover {
   body { font-size: 22px; }              
   ul { margin-bottom: 80px; }
   p {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-left: 5%;                 
     padding-right: 5%;
   }
@@ -174,8 +174,8 @@ a:hover {
 @media (max-width:600px) {
   body { font-size: 18px; }       
   p {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-left: 5%;
     padding-right: 5%;
   }
