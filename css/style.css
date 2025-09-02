@@ -180,15 +180,17 @@ a:hover {
 
 @media (max-width:600px) {
   body {
-    font-size: 36px; 
-  }
+    font-size: 36px;   
 	
-  p {margin-left: 10px;
+	p {margin-left: 10px;
     margin-right: 10px;}
 	padding-left: 5%;
 	padding-right: 5%;
 
 }
+  }
+	
+
 
 section {margin-bottom: 20px;}
 
