@@ -197,3 +197,9 @@ section {margin-bottom: 20px;}
   }
 }
 
+@media (max-width: 600px) {
+  header .logo-l {
+    width: 180px;           
+    margin: 48px auto;      
+  }
+}
