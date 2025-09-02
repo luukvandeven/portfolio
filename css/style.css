@@ -161,7 +161,7 @@ a:hover {
 }
 
 @media (max-width:1000px) {
-  body { font-size: 22px; }              
+  body { font-size: 26px; }              
   ul { margin-bottom: 80px; }
   p {
     margin-left: 20px;
@@ -172,7 +172,7 @@ a:hover {
 }
 
 @media (max-width:600px) {
-  body { font-size: 18px; }       
+  body { font-size: 22px; }       
   p {
     margin-left: 20px;
     margin-right: 20px;
