@@ -204,6 +204,5 @@ section {margin-bottom: 20px;}
   }
 }
 @media (max-width: 1000px) {
-  body { margin: 10; }              
-  #columns > section img { display:block; width:100%; height:auto; }
+  body { margin: 20; }                 
 }
