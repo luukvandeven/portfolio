@@ -203,6 +203,13 @@ section {margin-bottom: 20px;}
     margin: 48px auto;      
   }
 }
+/* Gelijke, kleine gutters op mobiel & tablet */
 @media (max-width: 1000px) {
-  body { margin: 20; }                 
+  body { margin: 12px; }                 /* i.p.v. 0 of 30 */
+  #columns > section { margin: 0 0 12px; } /* alleen verticale ruimte tussen items */
+  #columns > section img { display:block; width:100%; height:auto; margin:0; }
+}
+
+@media (max-width: 600px) {
+  body { margin: 8px; }                  /* nóg iets smaller op kleine telefoons */
 }
