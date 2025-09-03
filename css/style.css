@@ -200,7 +200,7 @@ section {margin-bottom: 20px;}
 @media (max-width: 600px) {
   header .logo-l {
     width: 160px;           
-    margin: 28px auto;      
+    margin: 28px ;      
   }
 }
 
