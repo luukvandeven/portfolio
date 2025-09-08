@@ -160,7 +160,7 @@ a:hover {
   }
 }
 
-@media (max-width:1000px) {
+@media (max-width:1024px) {
   body { font-size: 26px; }              
   ul { margin-bottom: 80px; }
   p {
