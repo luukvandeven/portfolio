@@ -31,7 +31,7 @@ body {
 	padding: 0;
 	margin: 30px;
 	/*max-width: 2400px;*/
-	background-color: #eae9d7;
+	background-color: #eaedff;
 }
 
 
@@ -43,7 +43,7 @@ h1 {
   font-variation-settings: "wght" var(--weight);
   font-size: 8vw;
   text-align: center;
-  color: #132d20;
+  color: #000000;
   margin-top: -40px;
   margin-bottom: 0.3em;
   padding: 0;
@@ -60,7 +60,7 @@ p {
 }
 
 body, a, a:visited {
-  color: #132d20;
+  color: #000000;
 }
 
 
@@ -112,7 +112,7 @@ a {
 }
 /*
 a:hover {
-   color: #006035;
+   color: #6000ff;
 }*/
 
 @keyframes fadeIn {
